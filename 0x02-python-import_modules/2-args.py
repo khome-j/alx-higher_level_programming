@@ -14,6 +14,3 @@ else:
 
 for i in range(1, args_len + 1):
     print("{}: {}".format(i, sys.argv[i]))
-
-
-
