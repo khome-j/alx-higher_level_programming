@@ -5,6 +5,9 @@ def weight_average(my_list=[]):
     count = 0
     sum = 0
 
+    if len(my_list) == 0:
+        return(0)
+
     for i in range(len(my_list)):
         count = my_list[i][0] * my_list[i][1]
         sum += count
